@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+:root {
+  --blackish: rgb(35, 35, 35);
+}
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+  color: var(--blackish);
+  flex-direction: column;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.container {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  width: 100%;
+}
+
+.nav-bar {
+  width: 100%;
+  position: sticky;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: rgb(0 0 0 / 12%) 0 1px 8px; */
+  border-bottom: 2px solid var(--blackish);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 77px;
+  width: 71px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-image: url("images/logo.svg");
+  margin: 1.2rem 2rem 1.2rem 1.2rem;
+}
+
+.title {
+  font-family: "Chicle", cursive;
+  font-size: 4rem;
+  letter-spacing: 0.06rem;
+}
+
+.user-container {
+  margin: 20px;
+}
+
+.properties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 150px;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--blackish);
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 30px 0;
+  color: rgb(255, 255, 255);
+}
+
+.review-card {
+  padding: 10px;
+}
+
+.reviews {
+  display: flex;
+  padding: 10px;
+}
+
+.break {
+  height: 1px;
+  width: 90%;
+  background-color: var(--blackish);
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  color: var(--blackish);
+  font-weight: 600;
+  border: 2px solid var(--blackish);
+  padding: 10px;
+}
+
+button:hover {
+  background-color: var(--blackish);
+  color: white;
+}
