@@ -39,6 +39,12 @@
 
 
 
+## Acknowledgement
+
+Inspired by and adapted from the excercises from the course learn TypeScript at Scrimba.
+
+
+
 ## License
 
 Copyright (c) 2022 Michael Kolesidis<br>
